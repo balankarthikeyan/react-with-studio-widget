@@ -1,0 +1,15 @@
+{
+    "widgetApi": [
+        {
+            "name": "Banner_React"
+        }
+    ],
+    "widgetDescription": "Banner React",
+    "authorName": "UXUI Team",
+    "requires": [
+        {
+            "name": "TemplateGallery_reactlib",
+            "version": "1.0"
+        }
+    ]
+}
