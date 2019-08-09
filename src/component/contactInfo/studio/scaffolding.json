@@ -1,0 +1,17 @@
+{
+    "properties": [],
+    "propertyGroups": [],
+    "itemDescription": [],
+    "events": [],
+    "actions": [],
+    "widgetSettings": {
+        "widgetName": "ContactInfo_React",
+        "widgetDescription": "ContactInfo React",
+        "authorName": "UXUI Team",
+        "multipleItems": true,
+        "supportHotspots": false,
+        "localFileBasePath": "",
+        "serverRendered": true,
+        "lastSaved": "2019-08-09 12:05:09 IST"
+    }
+}
