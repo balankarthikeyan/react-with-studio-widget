@@ -1,0 +1,15 @@
+{
+  "widgetApi": [
+    {
+      "name": "Header_React"
+    }
+  ],
+  "widgetDescription": "Header_React",
+  "authorName": "Header-React",
+  "requires": [
+    {
+      "name": "TemplateGallery_reactlib",
+      "version": "1.0"
+    }
+  ]
+}
