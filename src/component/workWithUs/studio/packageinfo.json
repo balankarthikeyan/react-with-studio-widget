@@ -1,0 +1,14 @@
+{
+    "widgetApi": [
+    {
+        "name": "WorkWithUs_React"
+    }],
+    "widgetDescription": "WorkWithUs React",
+    "authorName": "UXUI Team",
+    "requires": [
+        {
+          "name": "TemplateGallery_reactlib",
+          "version": "1.0"
+        }
+      ]
+}

@@ -5,7 +5,12 @@
  * without permission is prohibited. For further information contact Skava at
  * info@skava.com.
  */
-
+#root-header {
+  position: sticky;
+  top: 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 .header-section {
   display: flex;
   justify-content: space-between;

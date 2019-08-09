@@ -5,15 +5,10 @@
  * without permission is prohibited. For further information contact Skava at
  * info@skava.com.
  */
-
-div[widgetType='Footer_React'] {
-}
-
-div[widgetType='Footer_React'].child {
-}
 .footer-wrapper .container-fluid {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 50px;
 }
 .footer-wrapper .flex-space-between {
   display: flex;
@@ -124,7 +119,6 @@ div[widgetType='Footer_React'].child {
   .footer-wrapper .top-footer .container-fluid {
     flex-direction: column;
     max-width: 85%;
-    padding: 0 50px;
   }
   .footer-wrapper .list-with-title-wrapper {
     margin: 50px 0;
