@@ -23,9 +23,12 @@
   display: flex;
   justify-content: space-between;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .about-main-container .about-content {
     flex-direction: column;
+  }
+  .about-main-container .common-container {
+    padding: 24px 0;
   }
 }
 .about-main-container .founding,

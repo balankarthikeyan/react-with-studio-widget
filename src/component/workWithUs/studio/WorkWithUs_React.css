@@ -48,5 +48,8 @@
     .work-with-us .job-position {
       flex-direction: column;
     }
+    .work-with-us .common-container {
+      padding: 24px 0;
+    }
   }
   

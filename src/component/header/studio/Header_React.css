@@ -5,36 +5,55 @@
  * without permission is prohibited. For further information contact Skava at
  * info@skava.com.
  */
-#root-header {
+
+ .header-wrapper {
+  background-color: #292929;
   position: sticky;
   top: 0;
-  background-color: #292929;
 }
-.header-section {
+.nav-list .menu-icon {
+  display: none;
+}
+@media (max-width: 767px) {
+  .header-wrapper {
+    position: relative;
+  }
+  .nav-list .menu-icon {
+    display: block;
+  }
+  .nav-list .mobile-invisible {
+    display: none;
+  }
+}
+.header-container {
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 50px;
   height: 88px;
-  position: sticky;
-  top: 0;
+  padding: 0 50px;
 }
-.header-section nav {
+.nav-container {
   display: inline-block;
 }
-.header-section nav ul {
+.nav-list {
   list-style: none;
   align-items: center;
   display: flex;
 }
-.header-section nav ul li {
+.nav-item {
   display: inline-block;
   margin: 0 12px;
   text-transform: uppercase;
 }
-.header-section .request-btn {
+.nav-link {
+  text-decoration: none;
+  color: #f5f5f5;
+  font-size: 12px;
+  font-weight: 600;
+}
+.request-btn {
   background-color: #b6d82e;
   color: #fff;
   border-style: none;
@@ -44,12 +63,6 @@
   font-weight: 600;
   font-size: 12px;
 }
-.header-section nav ul li a {
-  text-decoration: none;
-  color: #f5f5f5;
-  font-size: 12px;
-  font-weight: 600;
-}
-.header-section .search-icon {
+.search-icon {
   height: 18px;
 }
