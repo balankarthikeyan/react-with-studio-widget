@@ -1,0 +1,46 @@
+/*
+ * (c)2002-2015 Skava. All rights reserved. The Skava system, including without
+ * limitation, all software and other elements thereof, are owned or controlled
+ * exclusively by Skava and protected by copyright, patent, and other laws. Use
+ * without permission is prohibited. For further information contact Skava at
+ * info@skava.com.
+ */
+
+ .about-main-container {
+    color: #292929;
+  }
+  .about-main-container .main-title {
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 36px;
+    max-width: 1200px;
+    margin: 8px auto;
+    padding: 0 50px;
+    color: #666666;
+  }
+  .about-main-container .about-wrapper1 {
+    background-color: #fff;
+    padding: 0 50px;
+  }
+  .about-main-container .common-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+  }
+  .about-main-container .about-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  @media (max-width: 768px) {
+    .about-main-container .about-content {
+      flex-direction: column;
+    }
+  }
+  .about-main-container .founding,
+  .about-main-container .our-mission {
+    flex: 0 0 47%;
+  }
+  .about-main-container .about-wrapper2 {
+    padding: 0 50px;
+  }
+  
