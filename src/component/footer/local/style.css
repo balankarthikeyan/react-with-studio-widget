@@ -1,0 +1,42 @@
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  background-color: #292929;
+  align-items: center;
+  padding: 0 50px;
+  height: 88px;
+  position: sticky;
+  top: 0;
+}
+.header-section nav {
+  display: inline-block;
+}
+.header-section nav ul {
+  list-style: none;
+  align-items: center;
+  display: flex;
+}
+.header-section nav ul li {
+  display: inline-block;
+  margin: 0 12px;
+  text-transform: uppercase;
+}
+.header-section .request-btn {
+  background-color: #b6d82e;
+  color: #fff;
+  border-style: none;
+  padding: 8px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+}
+.header-section nav ul li a {
+  text-decoration: none;
+  color: #f5f5f5;
+  font-size: 12px;
+  font-weight: 600;
+}
+.header-section .search-icon {
+  height: 18px;
+}
