@@ -8,13 +8,13 @@
 #root-header {
   position: sticky;
   top: 0;
-  max-width: 1200px;
-  margin: 0 auto;
+  background-color: #292929;
 }
 .header-section {
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  background-color: #292929;
   align-items: center;
   padding: 0 50px;
   height: 88px;

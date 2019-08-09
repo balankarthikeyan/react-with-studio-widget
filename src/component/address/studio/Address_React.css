@@ -49,8 +49,6 @@
     }
     .address-list-container {
         flex-direction: column;
-        padding-right: 50px;
-        padding-left: 50px;
         margin: 0;
     }
 }

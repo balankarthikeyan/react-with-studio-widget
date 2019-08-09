@@ -8,6 +8,11 @@
 
 var appendContactInfoElemName = 'root-contactInfo'
 function ReactContactInfoCompLoad() {
+  var ContactInfoComp = () => {
+    return React.createElement("div", {
+      className: "contact-container-fluid"
+    }, renderContactList(), renderContactForm());
+  }
     var renderContactList = () => {
         return React.createElement("div", {
           id: "contentList"
@@ -49,62 +54,90 @@ function ReactContactInfoCompLoad() {
         }, "Contact Us"), React.createElement("form", {
           id: "contact-form"
         }, React.createElement("div", {
-          className: "input-wrapper"
-        }, React.createElement("input", {
-          className: "input-box",
+          class: "input-wrapper"
+        }, React.createElement("label", {
+          class: "d-none",
+          for: "firstName_label"
+        }), React.createElement("input", {
+          class: "input-box",
           type: "text",
-          name: "firstName",
+          name: "firstName_label",
           placeholder: "First Name*",
+          id: "firstName_label",
           required: true
         })), React.createElement("div", {
-          className: "input-wrapper"
-        }, React.createElement("input", {
-          className: "input-box",
+          class: "input-wrapper"
+        }, React.createElement("label", {
+          class: "d-none",
+          for: "lastName_label"
+        }), React.createElement("input", {
+          class: "input-box",
           type: "text",
-          name: "lastName",
+          name: "lastName_label",
           placeholder: "Last Name*",
+          id: "lastName_label",
           required: true
         })), React.createElement("div", {
-          className: "input-wrapper"
-        }, React.createElement("input", {
-          className: "input-box",
+          class: "input-wrapper"
+        }, React.createElement("label", {
+          class: "d-none",
+          for: "title_label"
+        }), React.createElement("input", {
+          class: "input-box",
           type: "text",
-          name: "title",
+          name: "title_label",
+          id: "title_label",
           placeholder: "Title"
         })), React.createElement("div", {
-          className: "input-wrapper"
-        }, React.createElement("input", {
-          className: "input-box",
+          class: "input-wrapper"
+        }, React.createElement("label", {
+          class: "d-none",
+          for: "email_label"
+        }), React.createElement("input", {
+          class: "input-box",
           type: "email",
-          name: "email",
+          name: "email_label",
+          id: "email_label",
           placeholder: "Business Email*",
           required: true
         })), React.createElement("div", {
-          className: "input-wrapper"
-        }, React.createElement("input", {
-          className: "input-box",
+          class: "input-wrapper"
+        }, React.createElement("label", {
+          class: "d-none",
+          for: "company_label"
+        }), React.createElement("input", {
+          class: "input-box",
           type: "text",
-          name: "companyName",
+          name: "company_label",
+          id: "company_label",
           placeholder: "Company Name"
         })), React.createElement("div", {
-          className: "input-wrapper"
-        }, React.createElement("input", {
-          className: "input-box",
+          class: "input-wrapper"
+        }, React.createElement("label", {
+          class: "d-none",
+          for: "phoneNumber_label"
+        }), React.createElement("input", {
+          class: "input-box",
           type: "tel",
-          name: "phoneNumber",
+          name: "phoneNumber_label",
+          id: "phoneNumber_label",
           placeholder: "Phone number*",
           required: true
         })), React.createElement("div", {
-          className: "input-wrapper"
-        }, React.createElement("input", {
-          className: "input-box",
+          class: "input-wrapper"
+        }, React.createElement("label", {
+          class: "d-none",
+          for: "country_label"
+        }), React.createElement("input", {
+          class: "input-box",
           type: "text",
-          name: "country",
+          name: "country_label",
+          id: "country_label",
           placeholder: "Country"
         })), React.createElement("div", {
-          className: "input-wrapper"
+          class: "input-wrapper"
         }, React.createElement("textarea", {
-          className: "input-box textarea-message",
+          class: "input-box textarea-message",
           name: "message",
           placeholder: "Your Message:*",
           required: true
@@ -116,12 +149,6 @@ function ReactContactInfoCompLoad() {
           form: "contact-form",
           value: "Submit"
         }, "Submit"))));
-      }
-      
-      var ContactInfoComp = () => {
-        return React.createElement("div", {
-          className: "contact-container-fluid"
-        }, renderContactList(), renderContactForm());
       }
     ReactDOM.render(
         React.createElement(ContactInfoComp, null),
@@ -179,7 +206,7 @@ var ContactInfo_React = StudioWidgetV2.extend(
             }
 
             if (
-                $("#" + appendElemName, elem).length > 0 &&
+                $("#" + appendContactInfoElemName, elem).length > 0 &&
                 typeof ReactDOM.render === "function" &&
                 typeof React === "object"
               ) {
