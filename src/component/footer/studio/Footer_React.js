@@ -6,7 +6,7 @@
  * info@skava.com.
  */
 
-var appendElemName = 'root-footer'
+var appendFooterElemName = 'root-footer'
 function ReactFooterCompLoad() {
     var FooterComp = function(props) {
       var renderTopPanel = function renderTopPanel(props) {
@@ -179,7 +179,7 @@ function ReactFooterCompLoad() {
 
     ReactDOM.render(
         React.createElement(FooterComp, null),
-        document.getElementById(appendElemName)
+        document.getElementById(appendFooterElemName)
       )
 }
 
@@ -232,7 +232,7 @@ var Footer_React = StudioWidgetV2.extend(
             }
 
             if (
-                $("#" + appendElemName, elem).length > 0 &&
+                $("#" + appendFooterElemName, elem).length > 0 &&
                 typeof ReactDOM.render === "function" &&
                 typeof React === "object"
               ) {
