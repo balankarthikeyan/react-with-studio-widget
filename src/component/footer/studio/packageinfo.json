@@ -1,8 +1,15 @@
 {
-    "widgetApi": [
+  "widgetApi": [
     {
-        "name": "Footer_React"
-    }],
-    "widgetDescription": "Footer React",
-    "authorName": "UXUI Team"
+      "name": "Footer_React"
+    }
+  ],
+  "widgetDescription": "Footer React",
+  "authorName": "UXUI Team",
+  "requires": [
+    {
+      "name": "TemplateGallery_reactlib",
+      "version": "1.0"
+    }
+  ]
 }

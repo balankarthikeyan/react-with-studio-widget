@@ -15,3 +15,108 @@ div[widgetType = 'Footer_React'].child
 {
 
 }
+
+
+.footer-wrapper .container-fluid {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .footer-wrapper .flex-space-between {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-wrapper .flex-align-center {
+    align-items: center;
+  }
+  .footer-wrapper .height-50 {
+    height: 50px;
+  }
+  .footer-wrapper .top-footer {
+    border-top: 1px solid #000000;
+    background-color: #d2e3ea;
+    padding: 50px 0;
+  }
+  .footer-wrapper .bottom-footer {
+    background-color: #333333;
+    color: #eeeeee;
+  }
+  .footer-wrapper .svg-icons-wrapper {
+    display: flex;
+  }
+  .footer-wrapper .icon-link {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-wrapper .icon-link:hover {
+    border-radius: 50%;
+  }
+  .footer-wrapper .svg-icon {
+    width: 12px;
+    height: 12px;
+  }
+  .footer-wrapper .svg-icon path {
+    fill: #aaaaaa;
+  }
+  .footer-wrapper .svg-icon:hover path {
+    fill: #ffffff;
+  }
+  .footer-wrapper .twitter-icon:hover {
+    background-color: #50abf1;
+  }
+  .footer-wrapper .facebook-icon:hover {
+    background-color: #3a559f;
+  }
+  .footer-wrapper .linkedin-icon:hover {
+    background-color: #007bb5;
+  }
+  .footer-wrapper .youtube-icon:hover {
+    background-color: #cc181e;
+  }
+  .footer-wrapper .instagram-icon:hover {
+    background-color: #a67658;
+  }
+  .footer-wrapper .link-styles {
+    text-decoration: unset;
+    color: #003a70;
+    font-size: 15px;
+  }
+  .footer-wrapper .link-styles:hover {
+    text-decoration: underline;
+  }
+  /* Address styles */
+  .footer-wrapper .address-wrapper {
+    color: #003a70;
+    flex: 0 0 250px;
+  }
+  .footer-wrapper .address-item {
+    display: block;
+  }
+  .footer-wrapper .telephone-number {
+    margin-top: 0.5rem;
+  }
+  .footer-wrapper .request-a-demo {
+    margin-top: 0.5rem;
+    color: #003a70;
+    display: block;
+    text-decoration: none;
+  }
+  .footer-wrapper .request-a-demo:hover {
+    text-decoration: underline;
+  }
+  .footer-wrapper .list-with-title-wrapper {
+    flex: 0 0 250px;
+  }
+  @media (max-width: 767px) {
+    .footer-wrapper .top-footer .container-fluid {
+      flex-direction: column;
+      max-width: 85%;
+      padding: 0 50px;
+    }
+    .footer-wrapper .list-with-title-wrapper {
+      margin: 50px 0;
+    }
+  }
+  
