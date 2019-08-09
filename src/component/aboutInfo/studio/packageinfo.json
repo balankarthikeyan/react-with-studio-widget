@@ -1,0 +1,15 @@
+{
+    "widgetApi": [
+        {
+            "name": "AboutInfo_React"
+        }
+    ],
+    "widgetDescription": "AboutInfo React",
+    "authorName": "UXUI Team",
+    "requires": [
+        {
+            "name": "TemplateGallery_reactlib",
+            "version": "1.0"
+        }
+    ]
+}
