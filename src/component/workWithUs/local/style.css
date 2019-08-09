@@ -1,0 +1,52 @@
+.work-with-us {
+    background-color: #fff;
+    padding: 0 50px;
+    border-bottom: 1px solid #d7d7d7;
+  }
+  .work-with-us .common-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+  }
+  
+  .work-with-us .content-heading {
+    color: #003a70;
+    margin: 0;
+    font-style: normal;
+    font-size: 20px;
+  }
+  .work-with-us .main-content {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  
+  .work-with-us .team-wrapper {
+    margin-bottom: 24px;
+  }
+  .work-with-us .job-position {
+    display: flex;
+    justify-content: space-between;
+  }
+  .work-with-us .team-name {
+    display: block;
+    margin-bottom: 8px;
+  }
+  .work-with-us .job-link {
+    color: #0c92f3;
+    margin: 4px 0;
+    flex: 0 0 70%;
+  }
+  .work-with-us .job-link:hover {
+    color: #0068b3;
+  }
+  .work-with-us .job-location {
+    color: rgba(44, 46, 47, 0.5);
+    flex: 0 0 30%;
+  }
+  
+  @media (max-width: 767px) {
+    .work-with-us .job-position {
+      flex-direction: column;
+    }
+  }
+  

@@ -1,0 +1,50 @@
+.address-list-wrapper {
+    background-color: #ffffff;
+    padding: 0 50px;
+  }
+  .address-list-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 50px 0;
+    max-width: 1200px;
+  }
+  .address-wrapper {
+    font-style: normal;
+    font-size: 15px;
+    flex: 0 0 183px;
+  }
+  .address-item {
+    display: block;
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .make-bold {
+    font-weight: 700;
+    color: #003a70;
+  }
+  .telephone-number {
+    margin-top: 0.5rem;
+  }
+  
+  @media (max-width: 1023px) {
+    .address-wrapper {
+      flex: 0 0 123px;
+    }
+  }
+  @media (max-width: 767px) {
+    .address-wrapper {
+      flex: 0 0 100%;
+      margin-bottom: 40px;
+    }
+    .address-wrapper:last-child {
+      margin-bottom: 0;
+    }
+    .address-list-container {
+      flex-direction: column;
+      padding-right: 50px;
+      padding-left: 50px;
+      margin: 0;
+    }
+  }
+  

@@ -70,7 +70,9 @@
 /* Address styles */
 .footer-wrapper .address-wrapper {
   color: #003a70;
-  flex: 0 0 250px;
+  flex: 0 0 240px;
+  font-style: normal;
+  font-size: 15px;
 }
 .footer-wrapper .address-item {
   display: block;
@@ -88,8 +90,23 @@
   text-decoration: underline;
 }
 .footer-wrapper .list-with-title-wrapper {
-  flex: 0 0 250px;
+  flex: 0 0 240px;
 }
+.footer-wrapper .title {
+  color: #003a70;
+  font-size: 20px;
+  margin-top: 0;
+  font-weight: normal;
+}
+.footer-wrapper .list {
+  padding: 0;
+  margin: 0;
+}
+.footer-wrapper .list-item {
+  list-style-type: none;
+  margin: 1rem 0;
+}
+
 @media (max-width: 767px) {
   .footer-wrapper .top-footer .container-fluid {
     flex-direction: column;
