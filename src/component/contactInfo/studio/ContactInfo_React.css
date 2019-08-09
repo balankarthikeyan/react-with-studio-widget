@@ -1,0 +1,102 @@
+/*
+ * (c)2002-2015 Skava. All rights reserved. The Skava system, including without
+ * limitation, all software and other elements thereof, are owned or controlled
+ * exclusively by Skava and protected by copyright, patent, and other laws. Use
+ * without permission is prohibited. For further information contact Skava at
+ * info@skava.com.
+ */
+ 
+ .contact-container-fluid #contentList {
+    flex: 0 0 48%;
+  }
+  .contact-container-fluid #contactForm {
+    flex: 0 0 48%;
+  }
+  .contact-container-fluid #contactForm #contact-form {
+    width: 100%;
+    padding: 30px 40px 30px 45px;
+  }
+  .contact-container-fluid {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .contact-container-fluid .link-style:hover {
+    color: #6bc5f9;
+    text-decoration: underline;
+  }
+  .contact-container-fluid .link-style {
+    color: #003a70;
+    text-decoration: unset;
+    font-size: 15px;
+  }
+  .contact-container-fluid .main-content .link-style {
+    font-size: 15px;
+  }
+  .contact-container-fluid .border-and-spacing:after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    display: block;
+    background-color: #d7d7d7;
+    margin: 50px 0;
+  }
+  @media (max-width: 767px) {
+    .contact-container-fluid {
+      flex-direction: column;
+      padding: 0 50px;
+    }
+    .contact-container-fluid #contentList {
+      flex: 0 0 100%;
+      padding: 50px 0 20px 0;
+    }
+    .contact-container-fluid #contactForm {
+      flex: 0 0 100%;
+    }
+  }
+  
+  .contact-container-fluid .input-box {
+    background-color: #ffffff;
+    height: 45px;
+    padding-left: 12px;
+    border: none;
+    width: 100%;
+    font-size: 14px;
+    font-style: normal;
+  }
+  .contact-container-fluid .input-wrapper {
+    margin-bottom: 22px;
+    width: 100%;
+  }
+  .contact-container-fluid .textarea-message {
+    height: 160px;
+    resize: none;
+    padding-top: 1rem;
+  }
+  .contact-container-fluid .submit-button-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 46px;
+  }
+  .contact-container-fluid .submit-button {
+    background-color: #69a3b9;
+    height: 44px;
+    width: 115px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-container-fluid .heading {
+    color: #003a70;
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: none;
+    margin-top: 0;
+  }
+  
