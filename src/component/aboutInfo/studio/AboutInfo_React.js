@@ -6,7 +6,7 @@
  * info@skava.com.
  */
 
-var appendElemName = 'root-aboutInfo'
+var appendAboutElemName = 'root-aboutInfo'
 function ReactAboutInfoCompLoad() {
     var renderMainHeading = () => {
         return React.createElement("h1", {
@@ -61,7 +61,7 @@ function ReactAboutInfoCompLoad() {
     }
     ReactDOM.render(
         React.createElement(AboutInfoComp, null),
-        document.getElementById(appendElemName)
+        document.getElementById(appendAboutElemName)
     )
 
 }
@@ -109,7 +109,7 @@ var AboutInfo_React = StudioWidgetV2.extend(
                 }
 
                 if (
-                    $("#" + appendElemName, elem).length > 0 &&
+                    $("#" + appendAboutElemName, elem).length > 0 &&
                     typeof ReactDOM.render === "function" &&
                     typeof React === "object"
                   ) {

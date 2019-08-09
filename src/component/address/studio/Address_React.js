@@ -6,7 +6,7 @@
  * info@skava.com.
  */
 
-var appendElemName = 'root-address';
+var appendAddressElemName = 'root-address';
 function ReactAddressCompLoad() {
     var AddressComp = () => {
         var renderList = function renderList() {
@@ -78,7 +78,7 @@ function ReactAddressCompLoad() {
     
     ReactDOM.render(
         React.createElement(AddressComp, null),
-        document.getElementById(appendElemName)
+        document.getElementById(appendAddressElemName)
     )
 }
 
@@ -131,7 +131,7 @@ var Address_React = StudioWidgetV2.extend(
             }
 
             if (
-            $("#" + appendElemName, elem).length > 0 &&
+            $("#" + appendAddressElemName, elem).length > 0 &&
             typeof ReactDOM.render === "function" &&
             typeof React === "object"
             ) {

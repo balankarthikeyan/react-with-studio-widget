@@ -6,10 +6,9 @@
  * info@skava.com.
  */
 
-var BannerComp;
-var appendElemName = 'root-banner'
+var appendBannerElemName = 'root-banner'
 function ReactBannerCompLoad() {
-    BannerComp = () => {
+    var  BannerComp = () => {
         return React.createElement("section", {
             className: "banner-section"
         }, React.createElement("img", {
@@ -20,7 +19,7 @@ function ReactBannerCompLoad() {
     }
     ReactDOM.render(
         React.createElement(BannerComp, null),
-        document.getElementById(appendElemName)
+        document.getElementById(appendBannerElemName)
     )
 
 }
@@ -68,12 +67,11 @@ var Banner_React = StudioWidgetV2.extend(
                 }
 
                 if (
-                    $("#" + appendElemName, elem).length > 0 &&
+                    $("#" + appendBannerElemName, elem).length > 0 &&
                     typeof ReactDOM.render === "function" &&
                     typeof React === "object"
                 ) {
                     ReactBannerCompLoad(this);
-                    console.log("TEST Banner");
                 }
 
                 /* var html = "";
