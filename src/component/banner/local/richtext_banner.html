@@ -1,0 +1,32 @@
+<div id="root-banner">root-banner</div>
+
+<script src="../../../lib//react.development.js"></script>
+<script src="../../../lib//react-dom.development.js"></script>
+<script src="../../../lib//babel.min.js"></script>
+
+<script>
+    var appendElemName = 'root-banner'
+    function ReactBannerCompLoad() {
+        var BannerComp = () => {
+            return React.createElement("section", {
+                className: "banner-section"
+            }, React.createElement("img", {
+                className: "banner-img",
+                src: "https://d3k47hcltskkzh.cloudfront.net/31/studio/assets/v1565171471134_150829678/Office_Banner.jpg",
+                alt: "Skava banner"
+            }));
+        }
+        ReactDOM.render(
+            React.createElement(BannerComp, null),
+            document.getElementById(appendElemName)
+        )
+
+    }
+
+    ReactBannerCompLoad()
+</script>
+<style>
+    .banner-section .banner-img {
+        width: 100%;
+    }
+</style>

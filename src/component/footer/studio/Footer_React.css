@@ -115,12 +115,21 @@
   margin: 1rem 0;
 }
 
+@media (max-width: 1023px) {
+  .footer-wrapper .address-wrapper {
+    flex: 0 0 160px;
+  }
+  .footer-wrapper .list-with-title-wrapper {
+    flex: 0 0 160px;
+  }
+}
+
 @media (max-width: 767px) {
   .footer-wrapper .top-footer .container-fluid {
     flex-direction: column;
     max-width: 85%;
   }
   .footer-wrapper .list-with-title-wrapper {
-    margin: 50px 0;
+    margin: 20px 0;
   }
 }

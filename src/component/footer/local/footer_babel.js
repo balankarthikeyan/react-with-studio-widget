@@ -105,7 +105,8 @@ function ReactFooterCompLoad() {
         }, React.createElement("a", {
           className: "icon-link twitter-icon",
           href: "https://twitter.com/skava",
-          target: "_blank"
+          target: "_blank",
+          rel: "noreferrer"
         }, React.createElement("svg", {
           className: "svg-icon",
           xmlns: "http://www.w3.org/2000/svg",
@@ -116,7 +117,8 @@ function ReactFooterCompLoad() {
         }))), React.createElement("a", {
           className: "icon-link facebook-icon",
           href: "https://facebook.com/pages/Skava/5526864597",
-          target: "_blank"
+          target: "_blank",
+          rel: "noreferrer"
         }, React.createElement("svg", {
           className: "svg-icon",
           xmlns: "http://www.w3.org/2000/svg",
@@ -126,7 +128,8 @@ function ReactFooterCompLoad() {
         }))), React.createElement("a", {
           className: "icon-link linkedin-icon",
           href: "https://linkedin.com/company/skava/",
-          target: "_blank"
+          target: "_blank",
+          rel: "noreferrer"
         }, React.createElement("svg", {
           className: "svg-icon",
           xmlns: "http://www.w3.org/2000/svg",
@@ -136,7 +139,8 @@ function ReactFooterCompLoad() {
         }))), React.createElement("a", {
           className: "icon-link youtube-icon",
           href: "https://youtube.com/user/SkavaInc?feature=watch",
-          target: "_blank"
+          target: "_blank",
+          rel: "noreferrer"
         }, React.createElement("svg", {
           className: "svg-icon",
           xmlns: "http://www.w3.org/2000/svg",
@@ -146,7 +150,8 @@ function ReactFooterCompLoad() {
         }))), React.createElement("a", {
           className: "icon-link instagram-icon",
           href: "https://www.instagram.com/skavaus/",
-          target: "_blank"
+          target: "_blank",
+          rel: "noreferrer"
         }, React.createElement("svg", {
           className: "svg-icon",
           xmlns: "http://www.w3.org/2000/svg",
